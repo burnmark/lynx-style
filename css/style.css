@@ -35,7 +35,7 @@ body {
 }
 
 .header .logo {
-    color: #555;
+    color: #444;
     font-size: 32px;
     left: 40px;
     line-height: 60px;
@@ -80,13 +80,32 @@ body {
     border-radius: 5px;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15), 0 0 8px rgba(0, 0, 0, 0.15);
     color: #444;
-    height: 270px;
+    height: 296px;
     padding: 10px;
     position: absolute;
     top: 0;
     right: 0;
     left: 0;
     z-index: 100;
+}
+
+.header .share-open .title {
+    color: #555;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 6px;
+}
+
+.header .share-open .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.header .share-open .close:hover {
+    color: #888;
+    cursor: pointer;
 }
 
 .header .share-open input,
