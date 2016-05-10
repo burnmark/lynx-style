@@ -28,6 +28,8 @@ body {
     right: 0;
     top: 0;
     z-index: 1000;
+
+    display: none;
 }
 
 /* page */
@@ -98,6 +100,8 @@ body {
     right: 0;
     left: 0;
     z-index: 10000;
+
+    display: none;
 }
 
 .header .share-open .title {
@@ -134,6 +138,7 @@ body {
     float: left;
     padding-top: 3px; /* for main content tab underlines */
     width: 30%;
+    height: 100%;
 }
 
 /**
@@ -201,23 +206,29 @@ body {
     border-bottom-right-radius: 5px;
     border: 1px solid #EEE;
     border-top: none;
+
+
 }
 
 .panel-main {
     float: left;
+    height: calc(90% + 40px);
     margin-left: 20px;
     width: calc(70% - 30px);
 }
 .panel-main .panel-content {
     padding: 4% 2%;
+    height: calc(100% - 28px);
 }
 
 
 .panel-filter {
+    height: 30%;
     margin-bottom: 20px;
 }
 .panel-filter .panel-content{
     padding: 8px;
+    height: calc(100% - 25px);
 }
 
 
