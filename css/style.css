@@ -19,6 +19,17 @@ body {
     visibility: hidden;
 }
 
+.overlay {
+    position: fixed;
+    background: black;
+    bottom: 0;
+    left: 0;
+    opacity: 0.4;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+
 /* page */
 .page {
     overflow: auto;
@@ -86,7 +97,7 @@ body {
     top: 0;
     right: 0;
     left: 0;
-    z-index: 100;
+    z-index: 10000;
 }
 
 .header .share-open .title {
