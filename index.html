@@ -17,16 +17,15 @@
             lynx
         </div>
         <div class="share">
-            <div class="share-closed" id="share-closed">Share...</div>
-            <div class="share-open" id="share-opened">
-                <div class="title">Share a link</div>
-                <div class="close" id="close-share">
-                    <i class="fa fa-close"></i>
-                </div>
-                <input class="u-full-width" type="text" placeholder="Link address">
-                <input class="u-full-width" type="text" placeholder="Recipient (name, email, or phone number)">
-                <textarea class="u-full-width" placeholder="Note (optional)" rows="10"></textarea>
+            <div class="share-closed">
+                <input class="u-full-width" type="text" placeholder="Share a link...">
+            </div>
+            <div class="share-open">
+                <input class="u-full-width" type="text" placeholder="Share a link">
+                <input class="u-full-width" type="text" placeholder="To a user">
+                <textarea class="u-full-width" placeholder="Add a note (optional)" rows="10"></textarea>
                 <button class="button-primary">Send</button>
+                <button class="button">Cancel</button>
             </div>
         </div>
         <div class="account">
@@ -39,21 +38,21 @@
         <div class="sidebar">
           <div class="panel panel-filter">
           <div class="title-bar">
-            <!-- react-text: 5 --><span class="title">Domains</span><!-- /react-text -->
-            <i class="fa fa-search"></i>
+            <span class="title">Domains</span>
+            <!--<i class="fa fa-search"></i>-->
           </div>
           <div class="panel-content clearfix">
-            <span class="filter-btn">reddit</span>
-            <span class="filter-btn">buzzfeed</span>
-            <span class="filter-btn">twitter</span>
-            <span class="filter-btn">yahoo</span>
-            <span class="filter-btn">google</span>
+            <span class="filter-btn">reddit.com</span>
+            <span class="filter-btn">buzzfeed.com</span>
+            <span class="filter-btn">twitter.com</span>
+            <span class="filter-btn">yahoo.com</span>
+            <span class="filter-btn">google.com</span>
           </div>
         </div>
         <div class="panel panel-filter">
           <div class="title-bar">
-            <!-- react-text: 15 --><span class="title">People</span><!-- /react-text -->
-            <i class="fa fa-search"></i>
+            <span class="title">People</span>
+            <!--<i class="fa fa-search"></i>-->
           </div>
           <div class="panel-content clearfix">
             <div class="avatar avatar-btn" style="background-image: url(&quot;img/person1.jpg&quot;); background-size: cover; background-position: 50% 50%;"></div>
@@ -64,8 +63,8 @@
         </div>
         <div class="panel panel-filter">
           <div class="title-bar">
-            <!-- react-text: 24 --><span class="title">Categories</span><!-- /react-text -->
-            <i class="fa fa-search"></i>
+            <span class="title">Categories</span>
+            <!--<i class="fa fa-search"></i>-->
           </div>
           <div class="panel-content clearfix">
             <span class="filter-btn">dog</span>
@@ -81,20 +80,22 @@
       </div>
       <div class="panel panel-main">
         <div class="title-bar title-bar-main">
+          <span class="title tab">All</span>
           <span class="title tab">Sent</span>
           <span class="title tab selected">Received</span>
-          <i class="fa fa-search"></i>
+          <span class="title tab">Starred</span>
+          <!--<i class="fa fa-search"></i>-->
         </div>
         <div class="panel-content">
           <div class="message">
             <div class="sender">
               <div class="avatar avatar-btn" style="background-image: url(&quot;img/person1.jpg&quot;); background-size: cover; background-position: 50% 50%;"></div>
               <div class="time">
-                <!-- react-text: 45 -->3:30pm<!-- /react-text -->
+                3:30pm
                 <br>
-                <!-- react-text: 47 -->Feb 11<!-- /react-text -->
+                Feb 11
                 <br>
-                <!-- react-text: 49 -->2015<!-- /react-text -->
+                2015
               </div></div>
               <div class="link-content">
                 <div class="link-detail">
@@ -117,11 +118,11 @@
               <div class="sender">
                 <div class="avatar avatar-btn" style="background-image: url(&quot;img/person1.jpg&quot;); background-size: cover; background-position: 50% 50%;"></div>
                 <div class="time">
-                  <!-- react-text: 66 -->3:30pm<!-- /react-text -->
+                  3:30pm
                   <br>
-                  <!-- react-text: 68 -->Feb 11<!-- /react-text -->
+                  Feb 11
                   <br>
-                  <!-- react-text: 70 -->2015<!-- /react-text -->
+                  2015
                 </div>
               </div>
               <div class="link-content">
