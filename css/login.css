@@ -1,0 +1,26 @@
+body {
+    background-color: #FAFAFA;
+}
+
+.welcome-title {
+    box-shadow:  0 -1px 8px rgba(0,0,0,0.26);
+    border-bottom: 1px solid #CCC;
+    color: #444;
+    font-size: 46px;
+    line-height: 100px;
+    margin: 0;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.welcome-form {
+    padding: 20px 40px 60px;
+}
+
+.welcome-form .form-title {
+    border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 24px;
+    margin-bottom: 16px;
+    text-align: center;
+}
